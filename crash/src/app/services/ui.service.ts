@@ -8,7 +8,7 @@ export class UiService {
   private showAddTask: boolean = false;
   private subject = new Subject<any>();
 
-  constructor() { }
+  constructor() {}
 
   toggleAddTask(): void {
     this.showAddTask = !this.showAddTask;
